@@ -1,0 +1,120 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: white;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+input {
+    padding: 2% 10px;
+    font-size: 14px;
+    color: black;
+}
+
+button {
+    font-size: 100%;
+    padding: 2% 10px;
+    color: black;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid rgb(118, 64, 243);
+    background-color: rgba(118, 64, 243, 0.3);
+}
+
+.display {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid rgb(118, 64, 243);
+    border-bottom: 5px solid rgb(118, 64, 243);
+    padding: 25px;
+}
+
+img {
+    display: block;
+    height: 16%;
+    width: auto;
+
+}
+
+.display p {
+    font-size: 200%;
+    height: 13%;
+    font-weight: bold;
+
+}
+
+a{
+    display: block;
+    font-size: 18px;
+    height: 14%;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+
+footer {
+    background-color: #272b30;
+    padding: 5px;
+    text-align: center;
+    font-size: 1em;
+    border-radius: 10px;
+    width: 100%;
+    height: 62px;
+    position: relative;
+    bottom: 0;
+}
+
+footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+footer p {
+    color: rgb(84, 84, 195);
+}
+
+
+#displayImage{
+    margin-left: -7%;
+
+}
+#displaySong{
+    margin-left: -14%;
+
+}
+#displayArtist{
+    margin-left: -15%;
+}
+#displayLink{
+    margin-left: -10%;
+}
+
+a{
+    font-size: 40px;
+    margin-top: 35%;
+    margin-bottom: 35%;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- @NOTE linking firebase version 8 CDNs first -->
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script defer src="script.js"></script>
+
+</head>
+
+<body>
+    <h1>My Music Playlist</h1>
+    <h2>Add a new song</h2>
+    <form action="" id="form">
+        <div class="fields">
+            <label for="img">Image Link:</label>
+            <input type="text" id="image">
+        </div>
+        <div class="fields">
+            <label for="songName">songName:</label>
+            <input type="text" id="song">
+        </div>
+        <div class="fields">
+            <label for="artist">Artist:</label>
+            <input type="text" id="artist">
+        </div>
+        <div class="fields">
+            <label for="link">Song Link:</label>
+            <input type="text" id="link">
+        </div>
+        <div>
+            <button id="add">Add</button>
+        </div>
+    </form>
+    <br/>
+    <div class="heading">
+        <h4>Image</h4>
+        <h4>Song</h4>
+        <h4>Artist</h4>
+        <h4>Song Link</h4>
+    </div>
+
+    <div class="display">
+        <div id="displayImage" class="column"></div>
+        <div id="displaySong" class="column"></div>
+        <div id="displayArtist" class="column"></div>
+        <div id="displayLink" class="column"></div>
+    </div>
+
+    <footer>
+        <a href="https://www.linkedin.com/in/zhejie-jiang-9b7451284/" target=”_blank”><p>&copy; Zhejie Jiang 2023</p></a>
+    </footer>
+</body>
+
+</html>
